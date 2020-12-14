@@ -45,7 +45,7 @@ import axios from 'axios'
                 fecha_final: this.fecha_fin,
                 tipo_hab: this.tipo_habitacion
             }
-            axios.post("https://proyecto-hotel.herokuapp.com/reserva/crear", rsrvJSON).then(respuesta=>{
+            axios.post("https://proyectohotel-backend.herokuapp.com/reserva/crear", rsrvJSON).then(respuesta=>{
                 alert(respuesta.data.mensaje);
                 this.identificacion="";
                 this.nombre="";
