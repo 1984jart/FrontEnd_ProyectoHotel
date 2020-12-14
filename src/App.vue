@@ -3,13 +3,10 @@
     <body>
         <div class="header">
       <h2></h2>
-      
-
-      </nav>
-    </div>
-    <img src="..\images\logoT.png">
+  </div>
     <nav>
        <h1>Modulo Reservas</h1>
+    <!--<img src="..\images\logoT.png">-->
       <button v-on:click="Consultar_Reserva1">Consultar Reserva</button>
       <button v-on:click="Crear_Reserva1">Crear Reserva</button>
      
